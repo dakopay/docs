@@ -1,4 +1,4 @@
-Install SDK to use protocol.
+Install the SDK in order to use our protocol:
 
 ```js
 
