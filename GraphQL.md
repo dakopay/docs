@@ -1,4 +1,4 @@
-You can query all data using graphql
+You can query all data using graphql:
 
 ```js
 import { setChain, graphSubscriptions, graphTransfers } from 'repa-sdk';
