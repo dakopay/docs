@@ -1,6 +1,12 @@
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
   themeConfig: './theme.config.js',
-  unstable_staticImage: true,
+
+
+  // disable the Image Optimization API
+  images: {
+    unoptimized: true,
+  },
 })
+
 module.exports = withNextra()
