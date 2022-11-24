@@ -30,6 +30,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>{new Date().getFullYear()} © REPA.GGs.</>,
+  footerText: <>{new Date().getFullYear()} © REPA.GG</>,
   unstable_faviconGlyph: '👋',
 }
