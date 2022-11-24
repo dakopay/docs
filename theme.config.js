@@ -25,11 +25,11 @@ export default {
       <meta name="og:image" content="https://docs.repa.gg/main.jpg" />
     </>
   ),
-  search: true,
+  search: false,
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: 'Edit this page on GitHub',
+  footerEditLink: 'Edit on GitHub',
   footerText: <>{new Date().getFullYear()} © REPA.GG</>,
   unstable_faviconGlyph: '👋',
 }
