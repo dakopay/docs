@@ -3,12 +3,13 @@
 You can query all data using graphql:
 
 ```js
-import { setChain, graphSubscriptions, graphTransfers } from 'repa-sdk';
+import { getNetwork } from 'repa-sdk';
 
 // set testnet
-setChain(5);
+var network = getNetwork(5);
 
-graphSubscriptions('first: 10');
+var grapQLurl = network.graph;
+
 ```
 
 Types :
