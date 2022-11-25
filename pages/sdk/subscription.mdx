@@ -1,30 +1,26 @@
-## Encode Subscription
+## get Subscription
 
 ```jsx
-import { encodeSubscription } from 'repa-sdk';
+// Use
+import { subscriptions } from 'repa-sdk';
 
-// _networkId = 5
-// _boss = 0x95222290dd7278aa3ddd389cc1e1d165cc4bafe5
-// _token = 0x95222290dd7278aa3ddd389cc1e1d165cc4bafe5
-// _cost = 2
-// _initdays = 7
-
-var data = encodeSubscription(_networkId, _boss, _token, _cost, _initdays);
-
-//link for subscription
-var link = data.link;
-
-//hash for subscription
-
-var hash = data.hash;
+var data = subscriptions(_hash);
 ```
 
-## Decode Subscription
+## get random Subscription
 
 ```jsx
-import { decodeSubscription } from 'repa-sdk';
+// Use
+import { randomSubscription } from 'repa-sdk';
 
-// _hash = Subscription Hash
+var data = randomSubscription();
+```
 
-var decodedData = decodeSubscription(_hash);
+## get Subscription by user
+
+```jsx
+// Use
+import { getSubscriptionsByUser } from 'repa-sdk';
+
+var data = getSubscriptionsByUser(_user);
 ```

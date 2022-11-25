@@ -1,0 +1,33 @@
+## Encode Subscription Hash
+
+```jsx
+import { encodeSubscription } from 'repa-sdk';
+
+// _networkId = 5
+// _boss = 0x95222290dd7278aa3ddd389cc1e1d165cc4bafe5
+// _token = 0x95222290dd7278aa3ddd389cc1e1d165cc4bafe5
+// _cost = 2
+// _initdays = 7
+
+var data = encodeSubscription(_networkId, _boss, _token, _cost, _initdays);
+
+//link for subscription
+var link = data.link;
+
+//hash for subscription
+
+var hash = data.hash;
+```
+
+## Decode Subscription Hash
+
+```jsx
+import { decodeSubscription } from 'repa-sdk';
+
+// _hash = Subscription Hash
+
+var decodedData = decodeSubscription(_hash);
+```
+
+
+
